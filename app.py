@@ -24,9 +24,9 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 # Configuration and Model Loading
 # ---------------------------------------------------------------
 MODEL_PATHS = {
-    'efficientnet': 'models/EfficientNetV2B0.keras',
-    'mobilenet': 'models/animal_classifier_mobilenet.keras',
-    'densenet': 'models/best_densenet_model1.keras'
+    'efficientnet': 'EfficientNetV2B0.keras',
+    'mobilenet': 'animal_classifier_mobilenet.keras',
+    'densenet': 'best_densenet_model1.keras'
 }
 
 INPUT_SIZES = {
